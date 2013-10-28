@@ -1,0 +1,75 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+@font-face {
+    font-family: JosefinSlab-Regular;
+    src: url("../fonts/JosefinSlab-SemiBold.ttf");
+}
+
+html {
+    background: url("../images/background3.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: JosefinSlab-Regular;
+    font-size: 16px;
+}
+.container {
+  width: 960px;
+  margin: 0 auto 0 auto;
+}
+#main-header {
+    margin: 0px 0 0 0;
+    font-family: Arial, Helvetica, tahoma, sans-serif;
+    font-size: .95em;
+}
+#logo {
+    display: inline-block;
+    margin: 10px 20px 0 0;
+}
+#main-navigation {
+    display: inline-block;
+    vertical-align: super;
+}
+#main-navigation #navbar {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+
+}
+#main-navigation #navbar li {
+    display: inline;
+    margin: 0 1px;
+    padding: 7px 0;
+}
+#main-navigation #navbar li a {
+    text-decoration: none;
+    color: #000;
+    border-top: 1px solid #000000;
+    padding: 10px 65px 10px 5px;
+}
+#main-navigation #navbar li:hover  {
+    border-top: 4px solid #000000;
+}
+.content-wrapper {
+
+}
