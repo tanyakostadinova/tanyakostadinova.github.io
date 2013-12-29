@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+            <state line="4" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="22" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.7562724" vertical-offset="1227" max-vertical-offset="1802">
+            <state line="39" column="21" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.24185249" vertical-offset="522" max-vertical-offset="1904">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="Index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../nantucketedtrust/nantucketedtrust.github.io/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="289">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="header.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="8" selection-start="306" selection-end="306" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="476">
+            <state line="10" column="43" selection-start="268" selection-end="268" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="476">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="footer.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/footer.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="204">
+            <state line="3" column="26" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="2013-11-06-About-Us.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../nantucketedtrust/nantucketedtrust.github.io/_posts/2013-11-06-About-Us.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_site/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/stylesheets/style.css" />
       </list>
     </option>
@@ -220,8 +220,8 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -344,9 +344,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../nantucketedtrust/nantucketedtrust.github.io/_posts/2013-11-06-About-Us.md">
@@ -361,30 +359,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.70197487" vertical-offset="85" max-vertical-offset="646">
-          <folding />
-        </state>
+        <state line="28" column="0" selection-start="755" selection-end="755" vertical-scroll-proportion="0.70197487" vertical-offset="85" max-vertical-offset="646" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+        <state line="4" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_site/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="1695" selection-end="1695" vertical-scroll-proportion="1.548387" vertical-offset="360" max-vertical-offset="1326">
-          <folding />
-        </state>
+        <state line="72" column="0" selection-start="1695" selection-end="1695" vertical-scroll-proportion="1.548387" vertical-offset="360" max-vertical-offset="1326" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../nantucketedtrust/nantucketedtrust.github.io/Index.html">
@@ -396,21 +388,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="128" selection-end="128" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="204">
+        <state line="3" column="26" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="8" selection-start="306" selection-end="306" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="476">
+        <state line="10" column="43" selection-start="268" selection-end="268" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="476">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="22" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.7562724" vertical-offset="1227" max-vertical-offset="1802">
+        <state line="39" column="21" selection-start="1033" selection-end="1033" vertical-scroll-proportion="0.24185249" vertical-offset="522" max-vertical-offset="1904">
           <folding />
         </state>
       </provider>
