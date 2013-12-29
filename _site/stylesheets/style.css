@@ -69,7 +69,7 @@ body {
     text-decoration: none;
     color: rgba(255,255,255, .7);
     border-top: 1px solid rgba(255,255,255, .7);
-    padding: 10px 65px 10px 5px;
+    padding: 10px 80px 10px 5px;
 }
 #main-navigation #navbar li a:hover {
     color: rgba(253,248,171, .6);
