@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>{{ site.name }}</title>
+    <title>{% if page.title %} {{ page.title }} | {% endif %} Stoyanka Kostadinova, Cake Decorator</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{{ site.description }}">
     <meta name="author" content="Stoil Kostadinov">
     <meta charset="UTF-8">
-    <link href="stylesheets/style.css"  rel="stylesheet"/>
+    <link href="/stylesheets/style.css"  rel="stylesheet"/>
 </head>
 <body>
 <section class="container">
@@ -16,10 +16,10 @@
         </section>
         <nav id="main-navigation">
             <ul id="navbar">
-                <li class="selected"><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">GALLERY</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about/index.html">ABOUT</a></li>
+                <li><a href="gallery/index.html">GALLERY</a></li>
+                <li><a href="contact/index.html">CONTACT</a></li>
             </ul>
         </nav>
     </header>

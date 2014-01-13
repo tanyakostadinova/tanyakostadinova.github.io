@@ -24,7 +24,7 @@ time, mark, audio, video {
 }
 
 html {
-    background: url("../images/background3.jpg") no-repeat center center fixed;
+    background: url("../images/background2.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     overflow: auto;
@@ -42,9 +42,11 @@ body {
 }
 #main-header {
     background-color: rgba(0, 0, 0, 0.6);
+    box-shadow: 0 1px 2px;
     font-family: Arial,Helvetica,tahoma,sans-serif;
     font-size: 0.95em;
-    padding: 10px 0 20px 0;
+    padding: 10px 0 20px;
+    z-index: 1000;
 }
 #logo {
     display: inline-block;
@@ -72,11 +74,39 @@ body {
     padding: 10px 80px 10px 5px;
 }
 #main-navigation #navbar li a:hover {
-    color: rgba(253,248,171, .6);
-    border-top: 1px solid rgba(253,248,171, .6);
+    color: rgba(253,248,171, .8);
+    border-top: 1px solid rgba(253,248,171, .8);
 }
 #main-navigation #navbar li:hover  {
-    border-top: 4px solid rgba(253,248,171, .6);
+    border-top: 4px solid rgba(253,248,171, .8);
+}
+#main-navigation #navbar li.selected {
+    border-top: 4px solid rgba(253,248,171, .8);
+}
+#main-navigation #navbar li.selected a {
+    color: rgba(253,248,171, .8) !important;
+    border-top: 1px solid rgba(253,248,171, .8);
+}
+
+
+.content-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px;
+    margin: 20px auto 60px;
+    max-width: 820px;
+    padding: 60px 20px;
+}
+h1 {
+    color: #615A54;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.article-content p {
+    line-height: 1.6em;
+    text-align: left;
 }
 
 /* -------------------- Sticky Footer ------------------------- */
