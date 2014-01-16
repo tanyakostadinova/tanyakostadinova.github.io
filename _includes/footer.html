@@ -7,19 +7,22 @@
 
 
 <!-- Scripts goes here for fast site loading -->
-<script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<!--<script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src="../js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
 
 <script>
     var nedtConfig = {
-        navbarLink: null,
-        activeClass: 'selected'
+        navbarlink: null,
+        activeClass: 'subCurrent'
     };
-    $('#navbar').on('click', 'li a', function (e) {
-        $('li').removeClass('selected');
-        $(this).addClass('selected');
+    $(function () {
+        nedtConfig.navbarlink = $('#navbar li');
 
+        $('#navbar').on('click', 'li', function (e) {
+            nedtConfig.navbarlink.removeClass('selected');
+            $(this).addClass('selected');
+        });
     });
-</script>
+</script>-->
 </body>
 </html>
