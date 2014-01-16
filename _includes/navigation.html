@@ -1,0 +1,22 @@
+<ul id="navbar">
+    {% if page.active == home %}
+    <li class="selected"><a href="/">HOME</a></li>
+    {% else %}
+    <li><a href="/">HOME</a></li>
+    {% endif %}
+    {% if page.active == about %}
+    <li class="selected"><a href="/about/index.html">ABOUT</a></li>
+    {% else %}
+    <li><a href="/about/index.html">ABOUT</a></li>
+    {% endif %}
+    {% if page.active == gallery %}
+    <li class="selected"><a href="/gallery/index.html">GALLERY</a></li>
+    {% else %}
+    <li><a href="/gallery/index.html">GALLERY</a></li>
+    {% endif %}
+    {% if page.active == contact %}
+    <li class="selected"><a href="/contact/index.html">CONTACT</a></li>
+    {% else %}
+    <li><a href="/contact/index.html">CONTACT</a></li>
+    {% endif %}
+</ul>
