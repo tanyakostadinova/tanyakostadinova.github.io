@@ -6,5 +6,14 @@ url: "http://localhost:4000"
 paginate: 10
 
 markdown: rdiscount
-permalink: pretty
+permalink: date
 pygments: true
+navigation:
+- text: HOME
+  url: /index.html
+- text: ABOUT
+  url: /about.html
+- text: GALLERY
+  url: /gallery.html
+- text: Contact
+  url: /contact.html
