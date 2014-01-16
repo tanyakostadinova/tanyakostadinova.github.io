@@ -4,9 +4,7 @@ description: "Wedding & Birthday cakes | Designing & Decorating | Fondant & Butt
 url: "http://localhost:4000"
 
 paginate: 10
-<<<<<<< HEAD
-=======
->>>>>>> 42bdfd60ea46c93fce2bb92f10ef4f739ab88ced
+
 markdown: rdiscount
 permalink: date
 pygments: true
