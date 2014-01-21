@@ -66,22 +66,23 @@
 
 
 <!-- Scripts goes here for fast site loading -->
-<!--<script src="../js/jquery-1.10.2.min.js" type="text/javascript"></script>
-<script src="../js/jquery-migrate-1.2.1.js" type="text/javascript"></script>
+<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
 
-<script>
-    var nedtConfig = {
-        navbarlink: null,
-        activeClass: 'subCurrent'
-    };
-    $(function () {
-        nedtConfig.navbarlink = $('#navbar li');
+<script type="text/javascript">
 
-        $('#navbar').on('click', 'li', function (e) {
-            nedtConfig.navbarlink.removeClass('selected');
-            $(this).addClass('selected');
+    $(function(){
+        var navbarHeight = $('#main-header').outerHeight(true);
+        $(window).on('scroll', function(e){
+            var offset = $(this).scrollTop();
+            if(offset > navbarHeight){
+                $('#main-header').addClass('fixed');
+            }else{
+                $('#main-header').removeClass('fixed');
+            }
+
         });
+
     });
-</script>-->
+</script>
 </body>
 </html>
