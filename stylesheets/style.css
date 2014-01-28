@@ -102,7 +102,7 @@ body {
 
 
 .content-wrapper {
-    background-color: rgba(255, 255, 255, 0.8);
+   /* background-color: #F1DDC4;*/
     border-radius: 5px;
     box-shadow: 1px 1px 2px;
     margin: 130px auto 60px;
@@ -154,12 +154,45 @@ h1 {
 
 li[class*='stack'] {
     display: inline-block;
-    margin: 1%;
+    margin: 3%;
     list-style: none;
-    border: 8px solid #ffffff;
-    box-shadow: 2px 1px 4px rgba(0,0,0, .3);
+    border: 10px solid #ffffff;
+    box-shadow: 3px 2px 6px rgba(0,0,0, .6);
     border-radius: 3px;
     height: 150px;
+    position: relative;
+}
+li[class*='stack']:before {
+    content: "";
+    z-index: -1;
+    border: 10px solid #ffffff;
+    box-shadow: 3px 2px 6px rgba(0,0,0, .6);
+    border-radius: 3px;
+    height: 150px;
+    width: 100%;
+    background-color: #606060;
+    position: absolute;
+    right: -18px;
+    bottom: -1px;
+    -webkit-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    transform: rotate(6deg);
+}
+li[class*='stack']:after {
+    content: "";
+    z-index: -2;
+    border: 10px solid #ffffff;
+    box-shadow: 3px 2px 6px rgba(0,0,0, .6);
+    border-radius: 3px;
+    height: 150px;
+    width: 100%;
+    background-color: #000000;
+    position: absolute;
+    right: -8px;
+    bottom: -9px;
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    transform: rotate(-12deg);
 }
 
 /* ================= stack images ==================== */
