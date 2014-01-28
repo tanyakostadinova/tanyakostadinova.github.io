@@ -53,9 +53,40 @@
     </header>
     <section class="content-wrapper">
 
-    <article>
-    gallery
-</article>
+    <section id="gallery-wrapper">
+    <ul class="gallery-ul">
+        <li class="image-container stackOne">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackTwo">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackThree">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackFour">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackFive">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackOne">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackTwo">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackThree">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackFour">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+        <li class="image-container stackFive">
+            <img src="../images/gallery-thumbs1.jpg" alt="Hulk Cake">
+        </li>
+    </ul>
+</section>
 
     </section>
 </section>
@@ -64,25 +95,8 @@
     <p>Copyright &copy Stoyanka Kostadinova 2013 All rights reserved</p>
 </footer>
 
-
 <!-- Scripts goes here for fast site loading -->
-<script src="js/jquery-1.10.2.min.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-
-    $(function(){
-        var navbarHeight = $('#main-header').outerHeight(true);
-        $(window).on('scroll', function(e){
-            var offset = $(this).scrollTop();
-            if(offset > navbarHeight){
-                $('#main-header').addClass('fixed');
-            }else{
-                $('#main-header').removeClass('fixed');
-            }
-
-        });
-
-    });
-</script>
+<script src="/js/jquery-1.10.2.min.js" type="text/javascript"></script>
+<script src="/js/custom.js" type="text/javascript"></script>
 </body>
 </html>
