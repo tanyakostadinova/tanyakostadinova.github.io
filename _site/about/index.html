@@ -7,6 +7,7 @@
     <meta name="author" content="Stoil Kostadinov">
     <meta charset="UTF-8">
     <link href="/stylesheets/style.css"  rel="stylesheet"/>
+    <link href="/stylesheets/responsiveslides.css"  rel="stylesheet"/>
 </head>
 <body>
 <section class="container">
@@ -53,7 +54,26 @@
     </header>
     <section class="content-wrapper">
 
-    about
+    <article class="biography">
+    <section id="avatar">
+        <img src="/img/avatar.png">
+    </section>
+    <section id="biography">
+            <h2>Autobiografia</h2>
+            <p>Mi chiamo Kostadinova Stoyanka e sono bulgara, ho 48 anni. Sono venuta in Italia 10 anni fa.
+            La mia passione fin da piccola e la pasticceria e per questo motivo ho fato la scuola professionale
+            di pasticceria nella mia cita Velingrad. Mi sono diplomata  nel 1983 con  massimò dei voti.
+            Dopo la scuola ho lavorato poco come pasticcera per via delle miei gravidanze.
+            Crescendo il miei bambini ho trascurando un po la mia passione.
+            Ma facevo sempre torte per la mia famiglia, Più gli mangiavano Più mi veniva la voglia di farli.
+            Due anni fa ho scoperto la pasta di zucchero e cominciato a provare .
+            Mi piace molto a lavorare con PDZ e cioccolato plastico e scolpire tutto quello che vedo.
+            Posso dire che mi vengono abbastanza bene. Ho fatto un bell po di torte e secondo le opinioni di tutti sono molto belle.
+            Sono una perfezioni sta, mi piace curare il dettagli, ci metto tanta, tanta passione.
+            Quando vedo la felicita nell occhi di agente che prova le mie torte dimentico la fatica che ho messo.
+        </p>
+    </section>
+</article>
 
     </section>
 </section>
@@ -65,5 +85,31 @@
 <!-- Scripts goes here for fast site loading -->
 <script src="/js/jquery-1.10.2.min.js" type="text/javascript"></script>
 <script src="/js/custom.js" type="text/javascript"></script>
+<script src="/js/responsiveslides.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    $(function() {
+        $(".rslides").responsiveSlides({
+            auto: true,                    // Boolean: Animate automatically, true or false
+            speed: 1000,                    // Integer: Speed of the transition, in milliseconds
+            timeout: 8000,                  // Integer: Time between slide transitions, in milliseconds
+            pager: true,                    // Boolean: Show pager, true or false
+            nav: true,                      // Boolean: Show navigation, true or false
+            random: false,                  // Boolean: Randomize the order of the slides, true or false
+            pause: true,                   // Boolean: Pause on hover, true or false
+            pauseControls: true,            // Boolean: Pause when hovering controls, true or false
+            prevText: "",                   // String: Text for the "previous" button
+            nextText: "",                   // String: Text for the "next" button
+            maxwidth: "840px",              // Integer: Max-width of the slideshow, in pixels
+            navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+            manualControls: "",             // Selector: Declare custom pager navigation
+            namespace: "rslides",           // String: Change the default namespace used
+            before: function(){},           // Function: Before callback
+            after: function(){}             // Function: After callback
+        });
+    });
+
+</script>
 </body>
 </html>

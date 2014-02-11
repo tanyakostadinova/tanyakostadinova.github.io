@@ -1,0 +1,83 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+
+
+
+/* ================================ Custom Styles by Stoil Kostadinov ====================================== */
+.rslides_tabs.rslides1_tabs {
+    background-color: rgba(100, 100, 100, 0.8);
+}
+.rslides_tabs li {
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0 5px;
+    padding: 5px;
+    width: 20px;
+}
+.rslides_here {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.rslides_tabs li a {
+    color: #DDDDDD;
+    text-decoration: none;
+    display: block;
+}
+.rslides_tabs li:hover > a {
+    color: rgba(0,0,0, .6);
+
+}
+.rslides_nav.rslides1_nav {
+    color: rgba(0, 0, 0, 0);
+    height: 299px;
+    position: absolute;
+    top: 20px;
+    width: 90px;
+    z-index: 1000;
+}
+.rslides_nav.rslides1_nav:hover {
+    background: url("/images/arrows-sprite.png") no-repeat scroll -5px 100px;
+    background-color: rgba(0,0,0, .2);
+}
+.prev {
+    left: 20px;
+    background-position: -10px 50px;
+
+}
+.next {
+   right: 20px;
+    background-position: -205px 100px !important;
+
+}

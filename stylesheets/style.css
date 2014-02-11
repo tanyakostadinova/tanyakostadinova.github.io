@@ -109,12 +109,13 @@ body {
 
 
 .content-wrapper {
-   /* background-color: #F1DDC4;*/
+    background-color: rgba(0, 0, 0, 0.6);
     border-radius: 5px;
-    box-shadow: 1px 1px 2px;
     margin: 130px auto 60px;
-    max-width: 820px;
-    padding: 60px 20px;
+    max-width: 840px;
+    padding: 0 0 60px 0;
+    font-size: 1.1em;
+    color: #ddd;
 }
 h1 {
     color: #615A54;
@@ -250,3 +251,36 @@ li[class*='stack']:before {
 /* ================= stack images ==================== */
 
 /* ==================================== gallery ================================== */
+.article-content {
+    padding: 20px;
+}
+
+.biography {
+    padding: 60px 20px;
+}
+.biography #avatar {
+    float: left;
+    margin: 0 30px 0 0;
+}
+#avatar > img {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+#biography h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+#biography {
+    text-align: justify;
+
+}
+#image-slider img {
+    border: 20px solid rgba(100,100,100, .8);
+    border-bottom: none;
+    max-width: 800px;
+}
+#image-slider {
+    position: relative;
+
+}
